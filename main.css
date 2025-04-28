@@ -1,0 +1,313 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #f9f9f9;
+  --color-primary: #1a1a1a;
+  --color-secondary: #ffffff;
+  --color-accent: #ff6f61;
+  --color-text: #333333;
+  --color-link: var(--color-accent);
+
+  --font-sans: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-heading: "Playfair Display", serif;
+
+  --transition: 0.4s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover {
+  color: var(--color-primary);
+}
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+  border: none;
+  background: var(--color-accent);
+  color: var(--color-secondary);
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  transition: background var(--transition);
+}
+button:hover {
+  background: #e85b50;
+}
+
+nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  transition: background var(--transition);
+}
+nav.scrolled {
+  background: var(--color-secondary);
+}
+nav .logo {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--color-primary);
+}
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+}
+nav ul li a {
+  font-weight: 500;
+}
+
+.hero {
+  height: 100vh;
+  background: url('https://electroiq.com/wp-content/uploads/2025/01/Social-Media-Mental-Health-Statistics.jpg') center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+.hero::after {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+.hero .content {
+  position: relative;
+  color: #fff;
+  max-width: 800px;
+  padding: 0 1rem;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.hero .content.visible {
+  opacity: 1;
+  transform: none;
+}
+.hero h1 {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  padding: 6rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+section h2 {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+section h2::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 4px;
+  background: var(--color-accent);
+  margin-top: 0.5rem;
+}
+section p {
+  margin-bottom: 1rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: none;
+}
+
+.slide-in {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.slide-in.visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+:root {
+  --color-bg: #fafafa;             
+  --color-primary: #2a2a2a;       
+  --color-secondary: #ffffff;   
+  --color-accent: #0a74da;
+  --color-text: #333333;
+  --color-link: var(--color-accent);
+
+  --font-sans: "Inter", sans-serif;
+  --font-heading: "Playfair Display", serif;
+
+  --transition: 0.3s ease;
+}
+
+nav .logo {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, #0a74da, #00b1ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+  transition: text-shadow var(--transition);
+}
+nav .logo:hover {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-primary);
+}
+
+section h2 {
+  color: var(--color-primary);
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.hero .content h1,
+.hero .content p {
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+button {
+  background: var(--color-accent);
+  box-shadow: 0 4px 12px rgba(10,116,218,0.3);
+}
+button:hover {
+  background: #0083e8;
+  box-shadow: 0 6px 16px rgba(10,116,218,0.4);
+  transform: translateY(-2px);
+}
+
+nav.scrolled {
+  background: var(--color-secondary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+nav ul li a {
+  position: relative;
+  transition: color var(--transition);
+}
+nav ul li a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: var(--color-accent);
+  transition: width var(--transition);
+  position: absolute;
+  bottom: -4px; left: 0;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.fade-in,
+.slide-in {
+  transition-duration: 0.5s;
+}
+
+.hero {
+  width: 100vw;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  padding: 3rem 2rem 1rem;
+  font-size: 0.9rem;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.footer-content h3,
+.footer-content h4 {
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+}
+.footer-content ul {
+  list-style: none;
+}
+.footer-content ul li {
+  margin-bottom: 0.4rem;
+}
+.footer-content ul li a {
+  color: var(--color-secondary);
+  transition: color var(--transition);
+}
+.footer-content ul li a:hover {
+  color: var(--color-accent);
+}
+.footer-content address a {
+  color: var(--color-secondary);
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  max-width: 1000px;
+  margin: 0.5rem auto 0;
+}
