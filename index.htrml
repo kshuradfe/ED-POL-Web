@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Youth Mental Health</title>
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="index.js"></script>
+</head>
+<body>
+  <nav id="navbar">
+    <a href="#" class="logo">Youth Mental Health</a>
+    <ul class="nav-links">
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#negative">Negative Impacts</a></li>
+      <li><a href="#positive">Positive Opportunities</a></li>
+      <li><a href="#mechanisms">Mechanisms</a></li>
+      <li><a href="#case">Case Study</a></li>
+      <li><a href="#practice">Strategies</a></li>
+      <li><a href="#future">Future Directions</a></li>
+      <li><a href="#references">References</a></li>
+    </ul>
+  </nav>
+
+
+  <section class="hero" id="hero">
+    <div class="content fade-in">
+      <h1>Social Media & Youth Mental Health</h1>
+      <p>A Multidisciplinary Perspective on Impacts, Opportunities, and Practices</p>
+      <a href="#intro"><button>Learn More</button></a>
+    </div>
+  </section>
+
+  <section id="intro">
+    <div class="fade-in">
+      <h2>Introduction</h2>
+      <p>
+        In our hyper-connected digital era, social media has become an integral part
+        of young people’s daily lives. While it offers unprecedented support and
+        access to information, it is also closely linked to mental health challenges
+        such as anxiety, depression, and academic stress. This project takes a
+        multidisciplinary approach—from economics and psychology to sociology
+        and education—to explore the dual effects of social media on youth mental
+        health.
+      </p>
+      <p>
+        <em>“The introduction of Facebook at colleges had a negative impact on
+        student mental health.”</em> (Braghieri, Levy, & Makarin, 2022)<br>
+        <em>“Social media also presents opportunities for peer support and
+        mental health interventions.”</em> (Naslund et al., 2020)
+      </p>
+    </div>
+  </section>
+
+  <section id="negative">
+    <div class="fade-in">
+      <h2>Negative Impacts</h2>
+      <ul>
+        <li class="slide-in">
+          <strong>Rising Depression &amp; Anxiety:</strong>
+          Studies show Facebook’s rollout at colleges led to increased depressive
+          symptoms and academic impairment (Braghieri, Levy, & Makarin, 2022).
+        </li>
+        <li class="slide-in">
+          <strong>Academic Performance Decline:</strong>
+          Heavy social media use correlates with reduced focus and lower grades
+          among students (Habes et al., 2018).
+        </li>
+        <li class="slide-in">
+          <strong>Social Comparison &amp; Self-Esteem:</strong>
+          Unrealistic beauty and lifestyle standards fostered by media can
+          erode self-esteem (Ward, 2003).
+        </li>
+        <li class="slide-in">
+          <strong>Online Overload:</strong>
+          Pandemic-era online pressures compounded feelings of isolation and
+          anxiety (Garcia et al., 2024).
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <section id="positive">
+    <div class="fade-in">
+      <h2>Positive Opportunities</h2>
+      <ul>
+        <li class="slide-in">
+          <strong>Peer Support Networks:</strong>
+          Social media offers safe spaces for peer support and shared experiences.
+          (Naslund et al., 2020)
+        </li>
+        <li class="slide-in">
+          <strong>Access to Health Information:</strong>
+          Platforms enable timely mental health resources and interventions.
+          (Naslund et al., 2020)
+        </li>
+        <li class="slide-in">
+          <strong>Daily Coping Strategies:</strong>
+          Engaging in hobbies, exercise, and creative pursuits online can
+          improve resilience and mood (Monique Ward, 2003).
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="mechanisms">
+    <div class="fade-in">
+      <h2>Underlying Mechanisms</h2>
+      <p class="slide-in">
+        <strong>Social Comparison:</strong> Constant exposure to others’ “highlight reels”
+        triggers upward comparisons and anxiety (Braghieri et al., 2022; Ward, 2003).
+      </p>
+      <p class="slide-in">
+        <strong>Addictive Design:</strong> Infinite scroll and instant gratification loops
+        exploit reward pathways akin to gambling (Habes et al., 2018).
+      </p>
+      <p class="slide-in">
+        <strong>Reality–Virtual Gap:</strong> Information overload and curated content foster
+        disillusionment and impair offline social skills (Garcia et al., 2024).
+      </p>
+    </div>
+  </section>
+
+  <section id="case">
+    <div class="fade-in">
+      <h2>Case Study</h2>
+      <article class="slide-in">
+        <h3>“Emma's Story”</h3>
+        <p>
+          Emma, a 17-year-old high-school junior, spent 4–5 hours daily browsing social
+          media. She began comparing herself to peers online—highlight reels of perfect
+          grades and flawless appearances—and noticed her self-esteem plummet. Within
+          months she reported persistent anxiety, trouble sleeping, and dropping grades.
+        </p>
+        <p>
+          After discussing her struggles with the school counselor, Emma switched to a
+          structured screen-time routine: <em>no social apps after 8pm</em>, daily digital
+          journaling, and scheduled “offline” family time each evening. Within six
+          weeks, Emma’s sleep improved, anxiety decreased, and she regained focus
+          on schoolwork—demonstrating how guided digital interventions can reverse
+          negative trends (Braghieri et al., 2022; Garcia et al., 2024).
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <section id="practice">
+    <div class="fade-in">
+      <h2>Strategies</h2>
+      <ol class="slide-in">
+        <li>
+          <strong>Digital Literacy Programs:</strong>
+          Integrate social media literacy into school curricula to empower students
+          to critically evaluate online content (Ward, 2003).
+        </li>
+        <li>
+          <strong>Mindful Usage Plans:</strong>
+          Encourage screen-time schedules and regular “digital detox” activities to
+          reduce online overload (Naslund et al., 2020).
+        </li>
+        <li>
+          <strong>Peer-Led Support Groups:</strong>
+          Train student ambassadors to facilitate safe, supportive online commu-
+          nities (Garcia et al., 2024).
+        </li>
+        <li>
+          <strong>Mental Health Integration:</strong>
+          Embed brief online counseling and self-help tools within social platforms
+          for immediate access (Braghieri et al., 2022).
+        </li>
+        <li>
+          <strong>Parental Involvement:</strong>
+          Offer workshops for parents on constructive social media use and support
+          frameworks at home (Habes et al., 2018).
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="future">
+    <div class="fade-in">
+      <h2>Future Directions</h2>
+      <p class="slide-in">
+        As platforms evolve, ongoing research must explore AI-driven content feeds,
+        cross-platform effects, and cultural differences in social media’s impact on
+        youth mental health (Monique Ward, 2003; Aronstein & Finke, 2013).
+      </p>
+      <p class="slide-in">
+        Collaboration across disciplines—combining psychology, education, policy,
+        and technology—will be key to designing holistic, adaptive interventions that
+        can keep pace with digital innovation.
+      </p>
+    </div>
+  </section>
+
+  <section id="references">
+    <div class="fade-in">
+      <h2>References</h2>
+      <ul>
+        <li>
+          Braghieri, L., Levy, R. E., & Makarin, A. (2022). Social media and
+          mental health. <em>American Economic Review, 112</em>(11), 3660–3693.
+          <a href="https://doi.org/10.1257/aer.20211218">https://doi.org/10.1257/aer.20211218</a>
+        </li>
+        <li>
+          Naslund, J. A., Bondre, A., Torous, J., & Aschbrenner, K. A. (2020).
+          Social media and mental health: benefits, risks, and opportunities
+          for research and practice. <em>Journal of Technology in Behavioral Science, 5</em>(3), 245–257.
+          <a href="https://doi.org/10.1007/s41347-020-00134-x">https://doi.org/10.1007/s41347-020-00134-x</a>
+        </li>
+        <li>
+          Habes, M., Alghizzawi, M., Khalaf, R., Salloum, S. A., & Ghani, M. A.
+          (2018). The relationship between social media and academic
+          performance: Facebook perspective. <em>International Journal of Information Technology and Language Studies, 2</em>(1), 12–18.
+        </li>
+        <li>
+          Ward, L. M. (2003). Understanding the role of entertainment media
+          in the sexual socialization of American youth: A review of empirical
+          research. <em>Developmental Review, 23</em>, 347–388.
+        </li>
+        <li>
+          Aronstein, S. L., & Finke, L. A. (2013). Discipline and pleasure:
+          The pedagogical work of Disneyland. <em>Educational Philosophy and Theory, 45</em>(6), 610–624.
+          <a href="http://dx.doi.org/10.1080/00131857.2012.723885">http://dx.doi.org/10.1080/00131857.2012.723885</a>
+        </li>
+        <li>
+          Garcia, C., Amador Ayala, J., Diaz Roldan, K., & Bavarian, N.
+          (2022). Exploring Reddit conversations about mental health
+          difficulties among college students during the COVID-19 pandemic.
+          <em>Journal of American College Health, 72</em>(8), 2419–2425.
+          <a href="https://doi.org/10.1080/07448481.2022.2115297">https://doi.org/10.1080/07448481.2022.2115297</a>
+        </li>
+        <li>
+          Drevland, I. S., Asbjørnslett, M., Sveen, U., & Groven, K. S. (2024).
+          Occupational experiences and their importance for young peoples’
+          mental health. <em>Scandinavian Journal of Occupational Therapy, 31</em>(1), 1–12.
+          <a href="https://doi.org/10.1080/11038128.2024.2341779"> https://doi.org/10.1080/11038128.2024.2341779 </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-col">
+      <h3>Youth Mental Health</h3>
+      <p>Empowering young people through research, resources, and community.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#negative">Negative Impacts</a></li>
+        <li><a href="#positive">Opportunities</a></li>
+        <li><a href="#practice">Strategies</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Connect With Author</h4>
+      <ul class="social">
+        <li><a href="https://x.com/KillingShura123" aria-label="Twitter"><i class="icon-twitter"></i></a></li>
+        <li><a href="https://github.com/YourRepo" aria-label="GitHub"><i class="icon-github"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <address>
+        1234 Wellness Way<br>
+        City, State 00000<br>
+        <a href="mailto:info@youthmentalhealth.org">info@youthmentalhealth.org</a>
+      </address>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Social Media & Youth Mental Health • Designed by Sihan Wang</p>
+  </div>
+</footer>
+</body>
+</html>
